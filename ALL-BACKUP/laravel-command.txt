@@ -1,1 +1,6 @@
-composer create-project --prefer-dist laravel/laravel laravel-stackdevelopers-ecommerce "6.*"
+--> Creating a larvel6 project
+    composer create-project --prefer-dist laravel/laravel laravel-stackdevelopers-ecommerce "6.*"
+
+--> Laravel 6 Autincation
+    composer require laravel/ui "^1.0" --dev
+    php artisan ui bootstrap --auth     
